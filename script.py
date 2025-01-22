@@ -8,11 +8,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-from reportlab.pdfgen import canvas
-require('dotenv').config();
-console.log(process.env);
 from dotenv import load_dotenv
-import os
+from reportlab.pdfgen import canvas
+
+from dotenv import load_dotenv
+
+load_dotenv()
+#require('dotenv').config();
+#console.log(process.env);
 
 # Load environment variables from .env file
 load_dotenv()
