@@ -165,7 +165,7 @@ def main():
         sender_email = "prajakta23joshi@gmail.com"
         sender_password = "qrxq duwh awdk jxxi"
         subject = "Certificate of Participation – GMRT Technical Event 2025"
-        body_template = "Dear {name},\n\nThank you for your valuable participation in the GMRT Technical Event 2025, held on 17 January 2025. It was a pleasure having you as part of this event, and your enthusiasm greatly contributed to its success. \nPlease find attached your Certificate of Participation as a token of appreciation for your involvement.\n\nWe look forward to your participation in future events!\n\nBest regards,\nTeam Antariksh"
+        body_template = "Dear {name},\n\nThank you for your valuable participation in the GMRT Technical Event 2025, held on 17 January 2025. It was a pleasure having you as part of this event, and your enthusiasm greatly contributed to its success. \nPlease find attached your Certificate of Participation as a token of appreciation for your involvement.\n\nWe look forward to your participation in future events!\n\nBest regards,\nTeam Antariksh ✨"
 
         for name, email in zip(names, emails):
             if name.strip() and email.strip():
