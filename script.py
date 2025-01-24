@@ -144,7 +144,7 @@ def convert_to_pdf(image_path, output_path):
 def main():
     try:
         credentials_file = r"C:/Users/admin/OneDrive/My work (Prajakta)/Python/tempcertificates/certificates-448816-0745b9fd877c.json"
-        sheet_name = "demo(Responses)"
+        sheet_name = "Feedback Form for GMRT Technical Visit 2025 (Responses)"
         sheet = authenticate_google_sheets(credentials_file, sheet_name)
         
         names = sheet.col_values(2)[1:]  # Assumes names are in the second column, excluding header
