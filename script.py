@@ -162,8 +162,8 @@ def main():
 
         smtp_server = "smtp.gmail.com"
         port = 587
-        sender_email = "prajakta23joshi@gmail.com"
-        sender_password = "qrxq duwh awdk jxxi"
+        sender_email = "antariksh@viit.ac.in"
+        sender_password = "qrfk dbxl dtib ihja"
         subject = "Certificate of Participation – GMRT Technical Event 2025"
         body_template = "Dear {name},\n\nThank you for your valuable participation in the GMRT Technical Event 2025, held on 17 January 2025. It was a pleasure having you as part of this event, and your enthusiasm greatly contributed to its success. \nPlease find attached your Certificate of Participation as a token of appreciation for your involvement.\n\nWe look forward to your participation in future events!\n\nBest regards,\nTeam Antariksh ✨"
 
