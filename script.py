@@ -143,7 +143,7 @@ def convert_to_pdf(image_path, output_path):
 
 def main():
     try:
-        credentials_file = r"C:/Users/admin/OneDrive/My work (Prajakta)/Python/tempcertificates/tempcertificate-9beaab8f55ea.json"
+        credentials_file = r"C:/Users/admin/OneDrive/My work (Prajakta)/Python/tempcertificates/certificates-448816-0745b9fd877c.json"
         sheet_name = "demo(Responses)"
         sheet = authenticate_google_sheets(credentials_file, sheet_name)
         
